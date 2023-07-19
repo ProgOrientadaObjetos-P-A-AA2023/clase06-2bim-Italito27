@@ -13,6 +13,7 @@ public class Auto {
     private String placa;
     private double valorMatricula;
     
+    
     public void establecerPlaca(String p){
         placa = p;
     }
@@ -28,6 +29,9 @@ public class Auto {
     public double obtenerValorMatricula(){
         return valorMatricula;
     }
-    
+    @Override
+    public Strign toString(){
+    String cadena = String.format("pLACA: %s \n"+"valor matricula %.2f"), placa, valor matricula;
+    }
     
 }
